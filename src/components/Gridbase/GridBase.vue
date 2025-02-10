@@ -46,18 +46,23 @@ const gridStyle = computed(() => ({
 <style scoped lang="scss">
 .grid-container {
   width: 100%;
-  transition: grid-template-columns 0.3s ease;
+  transition: all 0.3s ease-in-out;
 }
 
 .grid-item {
-  background-color: var(--grid-item-bg, #ffffff);
-  border-radius: var(--grid-item-radius, 6px);
+  background-color: var(--grid-item-bg, #f8f9fa);
+  border-radius: var(--grid-item-radius, 8px);
   padding: var(--grid-item-padding, 1rem);
-  box-shadow: var(--grid-item-shadow, 0 2px 4px rgba(0, 0, 0, 0.1));
-  transition: transform 0.2s ease;
+  box-shadow: var(--grid-item-shadow, 0 3px 6px rgba(0, 0, 0, 0.15));
+  text-align: center;
+  font-weight: bold;
+  transition: transform 0.2s ease-in-out;
 
   &:hover {
-    transform: translateY(-3px);
+    transform: scale(1.05);
+    background-color: #007bff;
+    color: white;
   }
 }
+
 </style>
