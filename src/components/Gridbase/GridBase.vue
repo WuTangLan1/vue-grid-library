@@ -16,13 +16,14 @@ const props = withDefaults(defineProps<GridBaseProps>(), {
   responsive: true
 })
 
-const gridStyle = computed(() => {
-  return {
-    display: 'grid',
-    gridTemplateColumns: `repeat(${props.columns}, minmax(0, 1fr))`,
-    gap: props.gap
-  }
-})
+const gridStyle = computed(() => ({
+  display: 'grid',
+  gridTemplateColumns: props.responsive 
+    ? `repeat(auto-fit, minmax(100px, 1fr))` 
+    : `repeat(${props.columns}, minmax(0, 1fr))`,
+  gap: props.gap
+}));
+
 </script>
 
 
