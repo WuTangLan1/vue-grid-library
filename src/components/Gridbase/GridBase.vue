@@ -10,7 +10,7 @@ interface GridBaseProps {
 }
 
 const props = withDefaults(defineProps<GridBaseProps>(), {
-  items: [] as any[],     
+  items: () => [],   
   columns: 3,
   gap: '1rem',
   responsive: true
