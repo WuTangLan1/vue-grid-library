@@ -1,6 +1,6 @@
 <!-- src\components\GridBase\GridBase.vue -->
 <script setup lang="ts">
-import { computed, defineProps, withDefaults } from 'vue'
+import { computed } from 'vue'
 
 interface GridBaseProps {
   items: any[]
