@@ -2,7 +2,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import GridBase from './components/Gridbase'
+import GridBase from './components/GridBase'
 
 const items = ref([
   'Grid One',

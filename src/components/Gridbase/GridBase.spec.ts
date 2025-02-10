@@ -1,4 +1,4 @@
-// src\components\Gridbase\GridBase.spec.ts
+// src\components\GridBase\GridBase.spec.ts
 
 import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'

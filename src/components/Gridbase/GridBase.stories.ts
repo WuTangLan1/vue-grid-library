@@ -1,4 +1,4 @@
-// src\components\Gridbase\GridBase.stories.ts
+// src\components\GridBase\GridBase.stories.ts
 
 import type { Meta, StoryObj } from '@storybook/vue3'
 import GridBase from './GridBase.vue'

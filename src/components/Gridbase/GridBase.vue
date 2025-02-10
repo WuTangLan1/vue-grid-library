@@ -1,4 +1,4 @@
-<!-- src\components\Gridbase\GridBase.vue -->
+<!-- src\components\GridBase\GridBase.vue -->
 <script setup lang="ts">
 import { computed, defineProps, withDefaults } from 'vue'
 
