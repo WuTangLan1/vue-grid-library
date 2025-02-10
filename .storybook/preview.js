@@ -1,4 +1,4 @@
-// storybook\preview.js
+// .storybook\preview.js
 
 import { app } from '@storybook/vue3';
 
